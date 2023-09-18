@@ -1,0 +1,190 @@
+* {
+  box-sizing: content-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  font-size: 14px;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  color: #333;
+  padding: 12% 3% 5% 3%;
+}
+
+/*header*/
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: 27.136%;
+  height: 27.136%;
+  border-radius: 12px;
+}
+
+.authorName {
+  font-size: 1rem;
+  margin: 4% 0 3% 0;
+}
+
+.authorOrigins {
+  font-size: 0.8rem;
+  color: #a9a9a9;
+  letter-spacing: 2px;
+  line-height: 12px;
+  font-weight: 400;
+}
+
+.ig_details {
+  margin-top: 5%;
+  display: flex;
+  width: 100%;
+  height: 6.16vh;
+  justify-content: space-evenly;
+}
+
+.followers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5e5e5;
+  border-radius: 12px;
+  width: 22.8%;
+  text-transform: capitalize;
+}
+
+.chiffres {
+  font-weight: 600;
+}
+
+.details {
+  color: #a9a9a9;
+}
+/*main*/
+
+main {
+  margin: 10% 0 0 0;
+}
+
+.topImgs {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.img1 {
+  width: 29.152%;
+}
+
+.img2 {
+  width: 60%;
+  height: auto;
+}
+.lesImages {
+  display: flex;
+  margin: 3% 4% 0 0;
+}
+.img3 {
+  width: 89.75%;
+  height: auto;
+  position: relative;
+  left: 5%;
+}
+
+.img4 {
+  width: 29.152%;
+  height: auto;
+}
+
+.japan_plant {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.img5,
+.img6 {
+  margin-top: 3%;
+  width: 42%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 13%;
+}
+/*fold*/
+@media screen and (min-width: 280px) {
+  html {
+    font-size: 12px;
+  }
+  footer {
+    position: relative;
+    margin-top: 15%;
+    text-align: center;
+    width: 65%;
+  }
+}
+/*tablets*/
+@media screen and (min-width: 481px) and (orientation: portrait) {
+  html {
+    font-size: normal;
+  }
+  footer {
+    position: relative;
+    margin-top: 15%;
+    text-align: center;
+    width: 65%;
+  }
+}
+
+/*small computers*/
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: large;
+  }
+
+  .followers {
+    width: 16.8%;
+  }
+  footer {
+    position: relative;
+    margin-top: 15%;
+    text-align: center;
+    width: 65%;
+  }
+}
+
+/*large computers*/
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: large;
+  }
+
+  body {
+    padding: 10% 20% 0 20%;
+  }
+
+  .followers {
+    width: 16.8%;
+  }
+
+  .followers {
+    width: 10.8%;
+    padding: 2.7% 0;
+  }
+}
